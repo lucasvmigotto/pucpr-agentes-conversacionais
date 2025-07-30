@@ -1,0 +1,32 @@
+[project]
+name = "agentes-conversacionais"
+version = "0.1.0"
+description = "PUC-PR - Agentes Conversacionais"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "selenium>=4.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.5",
+]
+
+[project.scripts]
+app-run = "wpp_agent:__main__"
+
+[project.optional-dependencies]
+dev = [
+    "rich>=14.1.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.7.19,<0.8.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "src"
+module-name = "wpp_agent"
