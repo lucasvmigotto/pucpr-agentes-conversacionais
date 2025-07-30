@@ -19,8 +19,8 @@ COPY --from=ghcr.io/astral-sh/uv:latest \
 WORKDIR /code
 
 RUN cat <<EOF >> ~/.bashrc
-if [[ -d $HOME/.venv/bin/ ]]; then
-    source $HOME/.venv/bin/activate
+if [[ -d $HOME/venv/bin/ ]]; then
+    . $HOME/venv/bin/activate
 fi
 EOF
 
