@@ -2,11 +2,13 @@ from logging import Logger, getLogger
 
 from ..settings import Settings
 from ..utils import ask_reply, choice_accept
+from .agent import Agent
 from .whatsapp_webcrawler import WhatsAppWebCrawler
 
 
 def init_agent_workflow(settings: Settings, logger: Logger | None = None) -> int:
     _logger: Logger = logger or getLogger(__name__)
+    _agent = Agent(settings=settings.HF)
 
     with WhatsAppWebCrawler(settings) as crawler:
         crawler.open_whatsapp().wait(2).scan_qrcode().wait(2).handle_popup_modal().wait(
@@ -33,7 +35,14 @@ def init_agent_workflow(settings: Settings, logger: Logger | None = None) -> int
                     if not choice_accept(ask_reply(from_who, last_message)):
                         continue
 
-                    crawler.type_message(last_message).wait(2)
+                    if (
+                        llm_answer := _agent.answer_message(last_message)
+                    ) == settings.HF.LLM_INVALID_TOPIC:
+                        crawler.type_message(
+                            settings.HF.LLM_INVALID_TOPIC_MESSAGE
+                        ).wait(2)
+
+                    crawler.type_message(llm_answer).wait(2)
                     crawler.send_message()
 
             except KeyboardInterrupt:
