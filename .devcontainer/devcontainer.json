@@ -17,6 +17,11 @@
             "type": "bind"
         },
         {
+            "source": "${localWorkspaceFolder}/data",
+            "target": "/etc/agentes-conversacionais",
+            "type": "bind"
+        },
+        {
             "source": "agentes-conversacionais-dependencies",
             "target": "/home/vscode/venv",
             "type": "volume"
