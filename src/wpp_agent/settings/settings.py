@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+from .hf import HuggingFaceSettings
 from .log import LogSettings
 from .webdriver import WebDriverSettings
 from .whatsapp import WhatsAppSettings
@@ -17,5 +18,6 @@ class Settings(BaseSettings):
     DEBUG: bool = False
 
     LOG: LogSettings = LogSettings()
+    HF: HuggingFaceSettings = HuggingFaceSettings()
     WEBDRIVER: WebDriverSettings = WebDriverSettings()
     WPP: WhatsAppSettings = WhatsAppSettings()
