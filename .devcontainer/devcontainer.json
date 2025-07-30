@@ -1,0 +1,72 @@
+{
+    "name": "agentes-conversacionais",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "runArgs": [
+        "--rm",
+        "--name", "vsc-${localWorkspaceFolderBasename}",
+        "--env-file", ".env",
+        "--network", "agentes-conversacionais"
+    ],
+    "mounts": [
+        {
+            "source": "${localWorkspaceFolder}",
+            "target": "/code",
+            "type": "bind"
+        },
+        {
+            "source": "agentes-conversacionais-dependencies",
+            "target": "/home/vscode/venv",
+            "type": "volume"
+        }
+    ],
+    "workspaceFolder": "/code",
+    "updateContentCommand": "[ -f '/code/pyproject.toml' ] && uv sync --all-extras || echo 'pyproject.toml not detected'",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "~/venv",
+                "python.analysis.diagnosticSeverityOverrides": {
+                    "reportAttributeAccessIssue": "warning",
+                    "reportAssignmentType": "warning"
+                },
+                "[python]": {
+                    "diffEditor.ignoreTrimWhitespace": false,
+                    "editor.formatOnSave": true,
+                    "editor.defaultFormatter": "charliermarsh.ruff"
+                },
+                "editor.codeActionsOnSave": {
+                    "source.organizeImports.ruff": "explicit"
+                }
+            },
+            "extensions": [
+                // Development
+                "almenon.arepl",
+                "charliermarsh.ruff",
+                // Environment
+                "Cardinal90.multi-cursor-case-preserve",
+                "ryu1kn.partial-diff",
+                "christian-kohler.path-intellisense",
+                "JannisX11.batch-rename-extension",
+                "njzy.stats-bar",
+                // Utils
+                "humao.rest-client",
+                "mhutchie.git-graph",
+                "ms-azuretools.vscode-docker",
+                "docker.docker",
+                // Style and formatting
+                "DavidAnson.vscode-markdownlint",
+                "mohsen1.prettify-json",
+                "EditorConfig.EditorConfig",
+                "ms-python.python",
+                "ms-python.isort",
+                "tamasfe.even-better-toml",
+                // Language
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-portuguese-brazilian"
+            ]
+        }
+    }
+}
