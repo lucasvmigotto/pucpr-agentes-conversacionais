@@ -1,0 +1,740 @@
+[
+  {
+    "title": "O Poderoso Chefão",
+    "synopsis": "A saga da família Corleone, uma das mais poderosas da máfia de Nova York.",
+    "category": "Drama",
+    "release_year": 1972
+  },
+  {
+    "title": "Pulp Fiction: Tempo de Violência",
+    "synopsis": "As vidas de dois assassinos de aluguel, um boxeador, a esposa de um gângster e dois bandidos se entrelaçam em Los Angeles.",
+    "category": "Ação",
+    "release_year": 1994
+  },
+  {
+    "title": "Forrest Gump: O Contador de Histórias",
+    "synopsis": "A história de um homem ingênuo que, sem querer, participa de vários eventos históricos dos EUA.",
+    "category": "Comédia",
+    "release_year": 1994
+  },
+  {
+    "title": "A Origem",
+    "synopsis": "Um ladrão que rouba segredos corporativos através de tecnologia de compartilhamento de sonhos é encarregado de uma tarefa aparentemente impossível: inserir uma ideia na mente de um C.E.O.",
+    "category": "Ação",
+    "release_year": 2010
+  },
+  {
+    "title": "Interestelar",
+    "synopsis": "Em um futuro distópico, um grupo de exploradores faz uso de um buraco de minhoca recém-descoberto para superar as limitações das viagens espaciais humanas e conquistar as vastas distâncias de uma viagem interestelar.",
+    "category": "Ação",
+    "release_year": 2014
+  },
+  {
+    "title": "A Chegada",
+    "synopsis": "Quando misteriosas naves espaciais pousam em todo o mundo, uma equipe de elite, liderada pela linguista Louise Banks, é reunida para investigar.",
+    "category": "Drama",
+    "release_year": 2016
+  },
+  {
+    "title": "Parasita",
+    "synopsis": "Acompanha a família Ki-taek, que vive em uma condição de pobreza, e suas interações com a rica família Park.",
+    "category": "Drama",
+    "release_year": 2019
+  },
+  {
+    "title": "O Senhor dos Anéis: A Sociedade do Anel",
+    "synopsis": "Um jovem hobbit herda um anel e embarca em uma perigosa jornada para destruí-lo antes que caia nas mãos do Senhor das Trevas Sauron.",
+    "category": "Ação",
+    "release_year": 2001
+  },
+  {
+    "title": "Clube da Luta",
+    "synopsis": "Um homem que sofre de insônia e está cansado de sua vida corporativa forma um 'clube da luta' secreto com um vendedor de sabonetes excêntrico.",
+    "category": "Ação",
+    "release_year": 1999
+  },
+  {
+    "title": "Matrix",
+    "synopsis": "Um programador de computador descobre que a realidade é uma simulação controlada por máquinas inteligentes.",
+    "category": "Ação",
+    "release_year": 1999
+  },
+  {
+    "title": "Guerra nas Estrelas: Uma Nova Esperança",
+    "synopsis": "Luke Skywalker se junta a um Cavaleiro Jedi, um piloto arrogante, um Wookiee e dois andróides para salvar a galáxia da Estrela da Morte.",
+    "category": "Ação",
+    "release_year": 1977
+  },
+  {
+    "title": "De Volta Para o Futuro",
+    "synopsis": "Marty McFly, um estudante do ensino médio, acidentalmente viaja no tempo para 1955.",
+    "category": "Comédia",
+    "release_year": 1985
+  },
+  {
+    "title": "Toy Story",
+    "synopsis": "Um caubói de brinquedo sente ciúmes e se sente ameaçado quando um novo brinquedo entra em cena.",
+    "category": "Comédia",
+    "release_year": 1995
+  },
+  {
+    "title": "A Viagem de Chihiro",
+    "synopsis": "Uma menina de dez anos se vê presa em um mundo de espíritos, deuses e monstros.",
+    "category": "Ação",
+    "release_year": 2001
+  },
+  {
+    "title": "O Iluminado",
+    "synopsis": "Uma família viaja para um hotel isolado para cuidar dele durante o inverno, mas forças sobrenaturais começam a afetar o pai.",
+    "category": "Terror",
+    "release_year": 1980
+  },
+  {
+    "title": "O Silêncio dos Inocentes",
+    "synopsis": "Uma jovem agente do FBI pede a ajuda de um psiquiatra canibal para capturar um serial killer.",
+    "category": "Terror",
+    "release_year": 1991
+  },
+  {
+    "title": "Psicose",
+    "synopsis": "Uma secretária foge com dinheiro roubado e se hospeda em um motel isolado.",
+    "category": "Terror",
+    "release_year": 1960
+  },
+  {
+    "title": "O Exorcista",
+    "synopsis": "Uma mãe preocupada com a saúde de sua filha recorre a dois padres para exorcizar um demônio.",
+    "category": "Terror",
+    "release_year": 1973
+  },
+  {
+    "title": "Corra!",
+    "synopsis": "Um jovem negro visita a família de sua namorada branca e descobre um segredo perturbador.",
+    "category": "Terror",
+    "release_year": 2017
+  },
+  {
+    "title": "Hereditário",
+    "synopsis": "Uma família lida com a morte de sua avó, mas eventos estranhos começam a ocorrer.",
+    "category": "Terror",
+    "release_year": 2018
+  },
+  {
+    "title": "Invocação do Mal",
+    "synopsis": "Baseado em fatos, o filme segue os investigadores paranormais Ed e Lorraine Warren enquanto eles ajudam uma família aterrorizada por uma presença demoníaca.",
+    "category": "Terror",
+    "release_year": 2013
+  },
+  {
+    "title": "A Bruxa",
+    "synopsis": "Uma família religiosa é banida de sua colônia e se muda para uma floresta, onde coisas sinistras começam a acontecer.",
+    "category": "Terror",
+    "release_year": 2015
+  },
+  {
+    "title": "O Babadook",
+    "synopsis": "Uma mãe solteira descobre um livro infantil assustador e uma criatura malévola começa a aterrorizar sua família.",
+    "category": "Terror",
+    "release_year": 2014
+  },
+  {
+    "title": "Um Lugar Silencioso",
+    "synopsis": "Uma família deve viver em silêncio para evitar criaturas misteriosas que caçam pelo som.",
+    "category": "Terror",
+    "release_year": 2018
+  },
+  {
+    "title": "Annabelle",
+    "synopsis": "Um casal é aterrorizado por uma boneca possuída.",
+    "category": "Terror",
+    "release_year": 2014
+  },
+  {
+    "title": "O Grito",
+    "synopsis": "Uma maldição se espalha e mata quem entra em uma casa específica.",
+    "category": "Terror",
+    "release_year": 2004
+  },
+  {
+    "title": "O Chamado",
+    "synopsis": "Uma jornalista investiga uma fita de vídeo amaldiçoada que mata quem a assiste em sete dias.",
+    "category": "Terror",
+    "release_year": 2002
+  },
+  {
+    "title": "A Freira",
+    "synopsis": "Uma jovem freira se suicida em um convento e um padre e uma noviça são enviados para investigar.",
+    "category": "Terror",
+    "release_year": 2018
+  },
+  {
+    "title": "It: A Coisa",
+    "synopsis": "Um grupo de crianças enfrenta uma entidade sobrenatural que se alimenta de seus medos.",
+    "category": "Terror",
+    "release_year": 2017
+  },
+  {
+    "title": "Midsommar: O Ritual",
+    "synopsis": "Um casal americano viaja para a Suécia para um festival de verão, onde eles se deparam com um culto pagão.",
+    "category": "Terror",
+    "release_year": 2019
+  },
+  {
+    "title": "O Segredo da Cabana",
+    "synopsis": "Cinco amigos de faculdade vão para uma cabana isolada na floresta, onde são atacados por zumbis.",
+    "category": "Terror",
+    "release_year": 2012
+  },
+  {
+    "title": "O Hospedeiro",
+    "synopsis": "Uma criatura mutante emerge do Rio Han e aterroriza a cidade de Seul.",
+    "category": "Terror",
+    "release_year": 2006
+  },
+  {
+    "title": "A Maldição da Residência Hill",
+    "synopsis": "Uma família lida com traumas passados e eventos sobrenaturais em uma mansão assombrada.",
+    "category": "Terror",
+    "release_year": 2018
+  },
+  {
+    "title": "A Bruxa de Blair",
+    "synopsis": "Três estudantes de cinema desaparecem enquanto filmam um documentário sobre uma lenda local.",
+    "category": "Terror",
+    "release_year": 1999
+  },
+  {
+    "title": "REC",
+    "synopsis": "Uma repórter e sua equipe ficam presos em um prédio com pessoas infectadas por um vírus misterioso.",
+    "category": "Terror",
+    "release_year": 2007
+  },
+  {
+    "title": "Poltergeist: O Fenômeno",
+    "synopsis": "Uma família é aterrorizada por espíritos em sua casa suburbana.",
+    "category": "Terror",
+    "release_year": 1982
+  },
+  {
+    "title": "Suspiria",
+    "synopsis": "Uma bailarina americana se matricula em uma prestigiosa academia de dança em Berlim, mas logo descobre segredos sombrios.",
+    "category": "Terror",
+    "release_year": 1977
+  },
+  {
+    "title": "Martyrs",
+    "synopsis": "Uma jovem procura vingança contra aqueles que a torturaram quando criança.",
+    "category": "Terror",
+    "release_year": 2008
+  },
+  {
+    "title": "O Massacre da Serra Elétrica",
+    "synopsis": "Cinco amigos universitários são aterrorizados por uma família de canibais em uma fazenda isolada.",
+    "category": "Terror",
+    "release_year": 1974
+  },
+  {
+    "title": "Carrie, a Estranha",
+    "synopsis": "Uma adolescente oprimida com poderes telecinéticos se vinga de seus agressores.",
+    "category": "Terror",
+    "release_year": 1976
+  },
+  {
+    "title": "O Labirinto do Fauno",
+    "synopsis": "Em 1944, na Espanha, uma jovem garota escapa para um mundo de fantasia para evitar a terrível realidade de sua vida.",
+    "category": "Drama",
+    "release_year": 2006
+  },
+  {
+    "title": "A Vida é Bela",
+    "synopsis": "Durante a Segunda Guerra Mundial, um pai judeu tenta proteger seu filho da realidade dos campos de concentração, usando imaginação e humor.",
+    "category": "Drama",
+    "release_year": 1997
+  },
+  {
+    "title": "Central do Brasil",
+    "synopsis": "Uma ex-professora analfabeta que escreve cartas para outras pessoas na estação Central do Brasil, no Rio de Janeiro, forma um vínculo improvável com um menino órfão.",
+    "category": "Drama",
+    "release_year": 1998
+  },
+  {
+    "title": "Cidade de Deus",
+    "synopsis": "A história do crescimento do crime organizado no subúrbio de Cidade de Deus, no Rio de Janeiro, entre os anos 1960 e 1980.",
+    "category": "Ação",
+    "release_year": 2002
+  },
+  {
+    "title": "Tropa de Elite",
+    "synopsis": "A rotina do BOPE, o Batalhão de Operações Policiais Especiais da Polícia Militar do Rio de Janeiro.",
+    "category": "Ação",
+    "release_year": 2007
+  },
+  {
+    "title": "O Auto da Compadecida",
+    "synopsis": "As aventuras de João Grilo e Chicó, dois amigos que vivem de golpes no sertão nordestino.",
+    "category": "Comédia",
+    "release_year": 2000
+  },
+  {
+    "title": "Lisbela e o Prisioneiro",
+    "synopsis": "Um malandro que vive de golpes se apaixona por uma moça que está prometida a outro.",
+    "category": "Romance",
+    "release_year": 2003
+  },
+  {
+    "title": "O Homem Que Copiava",
+    "synopsis": "Um homem que trabalha em uma copiadora se apaixona por uma vizinha e usa seu trabalho para conquistá-la.",
+    "category": "Comédia",
+    "release_year": 2002
+  },
+  {
+    "title": "Minha Mãe É Uma Peça: O Filme",
+    "synopsis": "As aventuras de Dona Hermínia, uma mãe de classe média que precisa lidar com os desafios de criar seus filhos.",
+    "category": "Comédia",
+    "release_year": 2013
+  },
+  {
+    "title": "Bacurau",
+    "synopsis": "Um pequeno vilarejo no sertão de Pernambuco desaparece do mapa e seus habitantes são aterrorizados por invasores.",
+    "category": "Ação",
+    "release_year": 2019
+  },
+  {
+    "title": "Que Horas Ela Volta?",
+    "synopsis": "Uma empregada doméstica quebra as barreiras de classe quando sua filha se muda para a casa de seus patrões em São Paulo.",
+    "category": "Drama",
+    "release_year": 2015
+  },
+  {
+    "title": "Aquarius",
+    "synopsis": "Uma escritora aposentada luta para manter seu apartamento em Recife, que está sendo cobiçado por uma construtora.",
+    "category": "Drama",
+    "release_year": 2016
+  },
+  {
+    "title": "Narradores de Javé",
+    "synopsis": "Os moradores de um vilarejo ameaçado de inundação tentam criar sua própria história para evitar a demolição.",
+    "category": "Comédia",
+    "release_year": 2003
+  },
+  {
+    "title": "Abril Despedaçado",
+    "synopsis": "No sertão nordestino, um jovem se vê em um dilema entre a tradição de vingança de sua família e seu desejo de viver.",
+    "category": "Drama",
+    "release_year": 2001
+  },
+  {
+    "title": "Carandiru",
+    "synopsis": "A história da vida dos detentos na Casa de Detenção de São Paulo antes do massacre de 1992.",
+    "category": "Drama",
+    "release_year": 2003
+  },
+  {
+    "title": "Estamira",
+    "synopsis": "Um documentário sobre uma mulher que vive e trabalha em um aterro sanitário no Rio de Janeiro.",
+    "category": "Documentário",
+    "release_year": 2004
+  },
+  {
+    "title": "Ônibus 174",
+    "synopsis": "Um documentário sobre o sequestro de um ônibus no Rio de Janeiro em 2000.",
+    "category": "Documentário",
+    "release_year": 2002
+  },
+  {
+    "title": "Lixo Extraordinário",
+    "synopsis": "Um documentário sobre o artista Vik Muniz e seu trabalho com catadores de lixo em um aterro sanitário no Rio de Janeiro.",
+    "category": "Documentário",
+    "release_year": 2010
+  },
+  {
+    "title": "O Sal da Terra",
+    "synopsis": "Um documentário sobre a vida e a obra do fotógrafo Sebastião Salgado.",
+    "category": "Documentário",
+    "release_year": 2014
+  },
+  {
+    "title": "Caminhos Cruzados",
+    "synopsis": "Um casal se apaixona e enfrenta desafios enquanto tentam construir uma vida juntos.",
+    "category": "Romance",
+    "release_year": 2025
+  },
+  {
+    "title": "Amores Distantes",
+    "synopsis": "Duas pessoas em cidades diferentes encontram o amor online, mas precisam lidar com a distância.",
+    "category": "Romance",
+    "release_year": 2024
+  },
+  {
+    "title": "O Jardim Secreto do Amor",
+    "synopsis": "Uma jovem descobre um diário antigo e embarca em uma jornada para encontrar um amor perdido no tempo.",
+    "category": "Romance",
+    "release_year": 2023
+  },
+  {
+    "title": "Para Sempre em Nossos Corações",
+    "synopsis": "Um romance que transcende a vida e a morte, mostrando o poder do amor verdadeiro.",
+    "category": "Romance",
+    "release_year": 2022
+  },
+  {
+    "title": "A Última Canção de Verão",
+    "synopsis": "Um encontro de verão reacende um amor do passado, mas o futuro os reserva surpresas.",
+    "category": "Romance",
+    "release_year": 2021
+  },
+  {
+    "title": "Dois Mundos, Um Amor",
+    "synopsis": "Um romance entre pessoas de origens completamente diferentes, que precisam superar preconceitos.",
+    "category": "Romance",
+    "release_year": 2020
+  },
+  {
+    "title": "A Cafeteria dos Sonhos",
+    "synopsis": "Uma barista solitária encontra o amor em um cliente misterioso que frequenta sua cafeteria.",
+    "category": "Romance",
+    "release_year": 2019
+  },
+  {
+    "title": "Um Encontro Inesperado",
+    "synopsis": "Duas pessoas se encontram por acaso e descobrem uma conexão profunda que pode mudar suas vidas.",
+    "category": "Romance",
+    "release_year": 2018
+  },
+  {
+    "title": "Cartas para Julieta",
+    "synopsis": "Uma jovem americana encontra uma carta não respondida em Verona e decide responder.",
+    "category": "Romance",
+    "release_year": 2010
+  },
+  {
+    "title": "Diário de Uma Paixão",
+    "synopsis": "Um homem lê para uma mulher idosa um diário que conta a história de um amor avassalador.",
+    "category": "Romance",
+    "release_year": 2004
+  },
+  {
+    "title": "Orgulho e Preconceito",
+    "synopsis": "Em uma Inglaterra do século XIX, cinco irmãs precisam lidar com as expectativas sociais para o casamento.",
+    "category": "Romance",
+    "release_year": 2005
+  },
+  {
+    "title": "Simplesmente Acontece",
+    "synopsis": "Rosie e Alex são melhores amigos desde a infância, mas suas vidas tomam rumos diferentes.",
+    "category": "Romance",
+    "release_year": 2014
+  },
+  {
+    "title": "Como Eu Era Antes de Você",
+    "synopsis": "Uma jovem se torna cuidadora de um homem rico que ficou tetraplégico após um acidente.",
+    "category": "Romance",
+    "release_year": 2016
+  },
+  {
+    "title": "La La Land: Cantando Estações",
+    "synopsis": "Um pianista de jazz e uma aspirante a atriz se apaixonam em Los Angeles, enquanto tentam realizar seus sonhos.",
+    "category": "Romance",
+    "release_year": 2016
+  },
+  {
+    "title": "O Fabuloso Destino de Amélie Poulain",
+    "synopsis": "Uma jovem parisiense decide ajudar as pessoas ao seu redor, enquanto procura o amor.",
+    "category": "Comédia",
+    "release_year": 2001
+  },
+  {
+    "title": "O Terminal",
+    "synopsis": "Um homem fica preso em um aeroporto por causa de um conflito político em seu país de origem.",
+    "category": "Comédia",
+    "release_year": 2004
+  },
+  {
+    "title": "As Branquelas",
+    "synopsis": "Dois agentes do FBI se disfarçam de mulheres ricas para proteger as irmãs.",
+    "category": "Comédia",
+    "release_year": 2004
+  },
+  {
+    "title": "Se Beber, Não Case!",
+    "synopsis": "Quatro amigos viajam para Las Vegas para uma despedida de solteiro que dá muito errado.",
+    "category": "Comédia",
+    "release_year": 2009
+  },
+  {
+    "title": "Um Dia de Louco",
+    "synopsis": "Um adolescente tenta ter um dia perfeito sem ir à escola, mas se mete em várias confusões.",
+    "category": "Comédia",
+    "release_year": 1986
+  },
+  {
+    "title": "Apertem os Cintos... O Piloto Sumiu!",
+    "synopsis": "Um ex-piloto de caça com medo de voar precisa pousar um avião depois que a tripulação fica doente.",
+    "category": "Comédia",
+    "release_year": 1980
+  },
+  {
+    "title": "Monty Python Em Busca do Cálice Sagrado",
+    "synopsis": "O Rei Arthur e seus Cavaleiros da Távola Redonda embarcam em uma busca hilária pelo Cálice Sagrado.",
+    "category": "Comédia",
+    "release_year": 1975
+  },
+  {
+    "title": "Feitiço do Tempo",
+    "synopsis": "Um meteorologista cínico se vê preso em um loop temporal, revivendo o mesmo dia repetidamente.",
+    "category": "Comédia",
+    "release_year": 1993
+  },
+  {
+    "title": "O Ditador",
+    "synopsis": "Um ditador de um país fictício visita Nova York para impedir que um inimigo tome o poder.",
+    "category": "Comédia",
+    "release_year": 2012
+  },
+  {
+    "title": "A Família Addams",
+    "synopsis": "Uma família excêntrica e macabra precisa lidar com um impostor que se passa por um parente perdido.",
+    "category": "Comédia",
+    "release_year": 1991
+  },
+  {
+    "title": "Scooby-Doo! O Filme",
+    "synopsis": "A Mistério S.A. se reúne para resolver um mistério em uma ilha resort assombrada.",
+    "category": "Comédia",
+    "release_year": 2002
+  },
+  {
+    "title": "Superbad: É Hoje!",
+    "synopsis": "Dois amigos adolescentes tentam conseguir bebidas para uma festa antes de se formarem no ensino médio.",
+    "category": "Comédia",
+    "release_year": 2007
+  },
+  {
+    "title": "Todo Mundo Quase Morto",
+    "synopsis": "Um homem comum tenta sobreviver a um apocalipse zumbi e salvar sua namorada.",
+    "category": "Comédia",
+    "release_year": 2004
+  },
+  {
+    "title": "Zumbilândia",
+    "synopsis": "Um grupo de sobreviventes de um apocalipse zumbi viaja pelos EUA em busca de um santuário.",
+    "category": "Comédia",
+    "release_year": 2009
+  },
+  {
+    "title": "Deadpool",
+    "synopsis": "Um mercenário sarcástico e desfigurado busca vingança após ser submetido a um experimento.",
+    "category": "Comédia",
+    "release_year": 2016
+  },
+  {
+    "title": "Os Caça-Fantasmas",
+    "synopsis": "Quatro cientistas formam uma equipe para caçar fantasmas em Nova York.",
+    "category": "Comédia",
+    "release_year": 1984
+  },
+  {
+    "title": "Borat: O Segundo Melhor Repórter do Glorioso País Cazaquistão Viaja para a América",
+    "synopsis": "Um jornalista cazaque viaja para os EUA para aprender sobre a cultura americana.",
+    "category": "Comédia",
+    "release_year": 2006
+  },
+  {
+    "title": "Closer: Perto Demais",
+    "synopsis": "As vidas de quatro estranhos se entrelaçam em Londres, revelando complexidades amorosas.",
+    "category": "Drama",
+    "release_year": 2004
+  },
+  {
+    "title": "Spotlight: Segredos Revelados",
+    "synopsis": "Jornalistas investigam casos de abuso sexual na Igreja Católica de Boston.",
+    "category": "Drama",
+    "release_year": 2015
+  },
+  {
+    "title": "Whiplash: Em Busca da Perfeição",
+    "synopsis": "Um jovem baterista de jazz sonha em ser o melhor, mas seu professor exige o máximo dele.",
+    "category": "Drama",
+    "release_year": 2014
+  },
+  {
+    "title": "Piaf: Um Hino ao Amor",
+    "synopsis": "A vida da lendária cantora francesa Édith Piaf.",
+    "category": "Drama",
+    "release_year": 2007
+  },
+  {
+    "title": "O Segredo dos Seus Olhos",
+    "synopsis": "Um ex-agente judicial se envolve em um caso de assassinato não resolvido.",
+    "category": "Drama",
+    "release_year": 2009
+  },
+  {
+    "title": "A Grande Aposta",
+    "synopsis": "Um grupo de investidores prevê a crise financeira de 2008 e lucra com ela.",
+    "category": "Drama",
+    "release_year": 2015
+  },
+  {
+    "title": "Manchester à Beira-Mar",
+    "synopsis": "Um homem precisa voltar para sua cidade natal após a morte de seu irmão e cuidar de seu sobrinho.",
+    "category": "Drama",
+    "release_year": 2016
+  },
+  {
+    "title": "A Rede Social",
+    "synopsis": "A história da criação do Facebook e as batalhas legais que se seguiram.",
+    "category": "Drama",
+    "release_year": 2010
+  },
+  {
+    "title": "Capitão Fantástico",
+    "synopsis": "Um pai cria seus seis filhos na floresta, isolados da sociedade moderna, mas é forçado a reavaliar suas escolhas.",
+    "category": "Drama",
+    "release_year": 2016
+  },
+  {
+    "title": "O Quarto de Jack",
+    "synopsis": "Uma jovem e seu filho escapam de um cativeiro e precisam se adaptar ao mundo exterior.",
+    "category": "Drama",
+    "release_year": 2015
+  },
+  {
+    "title": "Blade Runner 2049",
+    "synopsis": "Um novo blade runner descobre um segredo que pode mergulhar o que resta da sociedade no caos.",
+    "category": "Ação",
+    "release_year": 2017
+  },
+  {
+    "title": "Duna",
+    "synopsis": "Um jovem talentoso deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e seu povo.",
+    "category": "Ação",
+    "release_year": 2021
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "synopsis": "Depois de mais de trinta anos de serviço, o piloto Maverick precisa treinar um novo grupo de pilotos de elite.",
+    "category": "Ação",
+    "release_year": 2022
+  },
+  {
+    "title": "Vingadores: Ultimato",
+    "synopsis": "Os Vingadores se unem para reverter os estragos causados por Thanos.",
+    "category": "Ação",
+    "release_year": 2019
+  },
+  {
+    "title": "Missão: Impossível - Acerto de Contas Parte Um",
+    "synopsis": "Ethan Hunt e sua equipe devem rastrear uma nova arma que ameaça toda a humanidade.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "John Wick 4: Baba Yaga",
+    "synopsis": "John Wick descobre um caminho para derrotar a Alta Cúpula, mas primeiro deve enfrentar um novo inimigo com alianças poderosas.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "007 - Sem Tempo Para Morrer",
+    "synopsis": "James Bond é tirado de sua aposentadoria para enfrentar um novo vilão perigoso.",
+    "category": "Ação",
+    "release_year": 2021
+  },
+  {
+    "title": "Pantera Negra",
+    "synopsis": "T'Challa, o Pantera Negra, retorna para casa em Wakanda para assumir seu lugar como rei.",
+    "category": "Ação",
+    "release_year": 2018
+  },
+  {
+    "title": "Mad Max: Estrada da Fúria",
+    "synopsis": "Em um futuro pós-apocalíptico, uma mulher se rebela contra um tirano em busca de sua terra natal.",
+    "category": "Ação",
+    "release_year": 2015
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "synopsis": "Os Guardiões da Galáxia precisam salvar um de seus próprios membros de um inimigo poderoso.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "Dungeons & Dragons: Honra Entre Rebeldes",
+    "synopsis": "Um ladrão charmoso e um bando de aventureiros improváveis ​​embarcam em um assalto épico.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "Avatar: O Caminho da Água",
+    "synopsis": "Jake Sully e Ney'tiri formaram uma família e estão fazendo de tudo para permanecerem juntos.",
+    "category": "Ação",
+    "release_year": 2022
+  },
+  {
+    "title": "Godzilla Minus One",
+    "synopsis": "No Japão pós-guerra, um ex-piloto de avião de guerra se une a um grupo de sobreviventes para enfrentar Godzilla.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "O Projeto Adam",
+    "synopsis": "Um piloto viaja no tempo para se unir com sua versão mais jovem e seu falecido pai para salvar o futuro.",
+    "category": "Ação",
+    "release_year": 2022
+  },
+  {
+    "title": "Enola Holmes 2",
+    "synopsis": "Enola Holmes assume seu primeiro caso oficial como detetive, mas descobre que seu trabalho se cruza com o de Sherlock.",
+    "category": "Ação",
+    "release_year": 2022
+  },
+  {
+    "title": "Agente Stone",
+    "synopsis": "Uma agente de inteligência internacional deve impedir que uma misteriosa organização roube sua arma mais valiosa.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "The Killer",
+    "synopsis": "Um assassino de aluguel começa a ter dúvidas sobre seu trabalho após um erro catastrófico.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "Velozes e Furiosos 10",
+    "synopsis": "Dom Toretto e sua família são alvos de um adversário que busca vingança.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "65: Ameaça Pré-Histórica",
+    "synopsis": "Um astronauta cai em um planeta misterioso e descobre que está na Terra pré-histórica.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "Transformers: O Despertar das Feras",
+    "synopsis": "Os Autobots se unem aos Maximals para lutar contra uma nova ameaça na Terra.",
+    "category": "Ação",
+    "release_year": 2023
+  },
+  {
+    "title": "O Resgate do Soldado Ryan",
+    "synopsis": "Um grupo de soldados é enviado para encontrar um pára-quedista cujos irmãos foram mortos em combate.",
+    "category": "Ação",
+    "release_year": 1998
+  },
+  {
+    "title": "Gladiador",
+    "synopsis": "Um general romano busca vingança contra o imperador corrupto que assassinou sua família e o forçou à escravidão.",
+    "category": "Ação",
+    "release_year": 2000
+  },
+  {
+    "title": "O Fugitivo",
+    "synopsis": "Um médico é acusado do assassinato de sua esposa e foge para provar sua inocência.",
+    "category": "Ação",
+    "release_year": 1993
+  }
+]
