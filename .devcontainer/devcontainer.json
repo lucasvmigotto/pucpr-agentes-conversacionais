@@ -6,7 +6,7 @@
     },
     "runArgs": [
         "--rm",
-        "--name", "vsc-${localWorkspaceFolderBasename}",
+        "--name", "vsc-agentes-conversacionais",
         "--env-file", ".env",
         "--network", "agentes-conversacionais"
     ],
@@ -17,18 +17,26 @@
             "type": "bind"
         },
         {
-            "source": "${localWorkspaceFolder}/data",
-            "target": "/etc/agentes-conversacionais",
-            "type": "bind"
-        },
-        {
             "source": "agentes-conversacionais-dependencies",
             "target": "/home/vscode/venv",
             "type": "volume"
+        },
+        {
+            "source": "${localWorkspaceFolder}/prompts",
+            "target": "/etc/agentes-conversacionais/prompts",
+            "type": "bind"
+        },
+        {
+            "source": "${localWorkspaceFolder}/data",
+            "target": "/etc/agentes-conversacionais/data",
+            "type": "bind"
         }
     ],
     "workspaceFolder": "/code",
-    "updateContentCommand": "[ -f '/code/pyproject.toml' ] && uv sync --all-extras || echo 'pyproject.toml not detected'",
+    "initializeCommand": {
+        "network": "[ -z $(docker network ls -qf name=agentes-conversacionais) ] && docker network create agentes-conversacionais || echo 'Network already exists'"
+    },
+    "updateContentCommand": "[ -f '/code/pyproject.toml' ] && uv sync --all-groups --all-extras || echo 'pyproject.toml not detected'",
     "customizations": {
         "vscode": {
             "settings": {

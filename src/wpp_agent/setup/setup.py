@@ -3,15 +3,15 @@ from typing import Callable, Unpack
 from pydantic import BaseModel
 
 from ..settings import Settings, settings
+from .general import setup_general
 from .log import setup_log
 
-_SETUP_FUNCTIONS: dict[str, Callable] = {
-    "log": setup_log,
-}
+_SETUP_FUNCTIONS: dict[str, Callable] = {"log": setup_log, "general": setup_general}
 
 
 class SetUpFunctions(BaseModel):
     log: bool = True
+    general: bool = True
 
 
 def setup_app(settings: Settings = settings, **modules: Unpack[SetUpFunctions]) -> None:

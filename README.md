@@ -10,6 +10,7 @@
     * [DevContainers](https://code.visualstudio.com/docs/devcontainers/containers)
       * [Tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
     * [Dev Cotainers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+    * [API Key para Gemini](https://aistudio.google.com/app/apikey)
 
 1. Clone do projeto
 
@@ -21,32 +22,50 @@
 
     > Altere e preencha os valores conforme necessário
 
-3. Crie a network Docker compartilhada:
-
-    ```bash
-    docker network create agentes-conversacionais
-    ```
-
-4. Abra o projeto no Visual Studio Code e execute o comando `Dev Containers: Rebuild Container Without Cache`
-
-5. Inicie o serviço do Docker Compose `selenium`:
-
-    ```bash
-    docker compose up selenium
-    ```
+3. Abra o projeto no Visual Studio Code e execute o comando `Dev Containers: Rebuild Container Without Cache`
 
 ### Comandos úteis
 
 * Abrir um terminal dentro do container
 
     ```bash
-    docker container exec -it $(docker container ls -laqf) bash
+    docker container exec -it $(docker container ls -aqf name=agentes-conversacionais) bash
     ```
 
-* Iniciar e usar o Remove Web Driver
+* Iniciar a aplicação
 
     ```bash
     uv run app-run
+    ```
+
+## Deploy/Uso
+
+1. Build da imagem Docker
+
+    > Considerando o diretório atual sendo o mesmo do projeto
+
+    ```bash
+    docker build \
+      --tag wpp-agent:latest \
+      --file .docker/app.Dockerfile \
+      --progress plain \
+      --no-cache \
+      .
+    ```
+
+2. Execução da aplicação
+
+    > É imperativo a variável `WPP_AGENT__HF__GEMINI_API_TOKEN` estar presente e com um valor válido dentro do arquivo `.env`
+
+    ```bash
+    docker run \
+      --rm \
+      --interactive \
+      --tty \
+      --env-file .env \
+      --mount "type=bind,src=./data,dst=/etc/agentes-conversacionais/data" \
+      --mount "type=bind,src=./prompts,dst=/etc/agentes-conversacionais/prompts" \
+      wpp-agent:latest
     ```
 
 ## Referências
